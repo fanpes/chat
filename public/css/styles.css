@@ -4,12 +4,9 @@
 body { 
 	font: 13px Helvetica, Arial;
        }
-form { 
-	  
-       padding: 3px;
-       position: fixed;
-       bottom: 0;
-       width: 100%;
+form { 	  
+       padding: 3px;       
+       bottom: 0;       
        }
 form input { 
        padding: 10px;
@@ -24,6 +21,8 @@ form button {
 #messages { list-style-type: none;
        margin: 0;
        padding: 0;
+       height: 500px;
+       overflow: auto;
        }
       #messages li { padding: 5px 10px;
        }
@@ -33,3 +32,8 @@ form button {
 	background-color: red;
 	width: 50px;
 }    
+
+
+.chat-container{
+	 width: 60%;
+}
